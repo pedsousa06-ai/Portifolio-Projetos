@@ -8,8 +8,8 @@
   /* BODY */
   body {
     font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
+    background: #0a0a0a;
+    color: #e5e5e5;
   }
   
   /* NAVBAR */
@@ -17,16 +17,17 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(10, 10, 10, 0.9);
     display: flex;
     justify-content: space-between;
     padding: 15px 40px;
     backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1f1f1f;
     z-index: 1000;
   }
   
   nav h1 {
-    color: #38bdf8;
+    color: #ffffff;
   }
   
   nav ul {
@@ -36,13 +37,13 @@
   }
   
   nav a {
-    color: white;
+    color: #cfcfcf;
     text-decoration: none;
     transition: 0.3s;
   }
   
   nav a:hover {
-    color: #38bdf8;
+    color: #ffffff;
   }
   
   /* HERO */
@@ -55,16 +56,16 @@
     padding: 20px;
   }
   
-  /* HERO CONTENT */
+  /* HERO TEXTO */
   .hero h1 {
     font-size: 42px;
-    color: #38bdf8;
+    color: #ffffff;
   }
   
   .hero p {
     margin: 15px 0;
     font-size: 18px;
-    color: #cbd5f5;
+    color: #a1a1aa;
   }
   
   /* FOTO */
@@ -73,7 +74,7 @@
     height: 140px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 3px solid #38bdf8;
+    border: 2px solid #2a2a2a;
     object-fit: cover;
     transition: 0.3s;
   }
@@ -97,26 +98,27 @@
     transition: 0.3s;
   }
   
-  /* LINKEDIN */
+  /* BOTÕES */
   .linkedin {
-    background: #0a66c2;
-    color: white;
+    background: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
   }
   
   .linkedin:hover {
-    background: #084a91;
+    background: #ffffff;
+    color: #000;
   }
   
-  /* GITHUB */
   .github {
-    background: #1e293b;
-    color: white;
-    border: 1px solid #38bdf8;
+    background: #111;
+    color: #fff;
+    border: 1px solid #333;
   }
   
   .github:hover {
-    background: #38bdf8;
-    color: black;
+    background: #ffffff;
+    color: #000;
   }
   
   /* SECTIONS */
@@ -129,6 +131,7 @@
   h2 {
     margin-bottom: 20px;
     font-size: 28px;
+    color: #ffffff;
   }
   
   /* SKILLS */
@@ -138,22 +141,23 @@
   
   .skills-group h3 {
     margin-bottom: 10px;
-    color: #38bdf8;
+    color: #bfbfbf;
     font-size: 18px;
   }
   
   .skills span {
-    background: #1e293b;
+    background: #1a1a1a;
     padding: 10px 15px;
     margin: 5px;
     display: inline-block;
     border-radius: 8px;
+    border: 1px solid #2a2a2a;
     transition: 0.3s;
   }
   
   .skills span:hover {
-    background: #38bdf8;
-    color: black;
+    background: #ffffff;
+    color: #000;
   }
   
   /* GRID */
@@ -165,14 +169,20 @@
   
   /* CARD */
   .card {
-    background: #1e293b;
+    background: #141414;
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid #222;
     transition: 0.3s;
   }
   
   .card:hover {
     transform: translateY(-5px);
+    border-color: #444;
+  }
+  
+  .card p {
+    color: #bfbfbf;
   }
   
   .card ul {
@@ -193,8 +203,8 @@
     display: inline-block;
     margin-right: 10px;
     padding: 8px 12px;
-    background: #38bdf8;
-    color: black;
+    background: #ffffff;
+    color: #000;
     border-radius: 6px;
     font-size: 14px;
     transition: 0.3s;
@@ -202,14 +212,21 @@
   }
   
   .links a:hover {
-    background: white;
+    background: #d4d4d4;
+  }
+  
+  /* CONTATO */
+  #contato p {
+    color: #bfbfbf;
   }
   
   /* FOOTER */
   footer {
     text-align: center;
     padding: 20px;
-    background: #020617;
+    background: #050505;
+    border-top: 1px solid #1f1f1f;
+    color: #888;
   }
   
   /* RESPONSIVO */
